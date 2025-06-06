@@ -8,10 +8,10 @@ const Safeguard = `
           <div class="swiper-slide" >
               <div class="page1-lovexhj1">
                   <img class="avt avt-boy" src="https://i.imgur.com/WrOu7QM.jpg" alt="">
-                  <span onclick="window.location.href='//facebook.com/phu2205';" class="name-boy">Trịnh Minhu<img class="TichXanh__" src="./public/images/tick-green.gif"></span>
+                  <span onclick="window.location.href='//facebook.com/phu2205';" class="name-boy">PPhu<img class="TichXanh__" src="./public/images/tick-green.gif"></span>
                   <img class="decor-avatar" src="./public/images/heart-gif.gif" alt="">
                   <img class="decor-avatar avt avt-girl" src="https://i.imgur.com/JnyJfXB.jpg" alt="">
-                  <span onclick="window.location.href='//facebook.com/myynuongcutis1tg';" class="name-girl">Lại Nghĩa<img class="TichXanh__" src="./public/images/tick-pink.gif"></span>
+                  <span onclick="window.location.href='//facebook.com/myynuongcutis1tg';" class="name-girl">MNuong<img class="TichXanh__" src="./public/images/tick-pink.gif"></span>
                   <div class="td-focus">
                   <p class="title-font">Tụi Mình Yêu Nhau Được: </p><p class="title-font rainbowabc" id="lovetime"></p>
                   <br>
@@ -109,7 +109,7 @@ Swal.fire(
   )
 }
 const ThanhDieu_List = [
-"https://files.catbox.moe/vy43ny.mp3",
+"https://files.catbox.moe/8xafsl.mp3",
   ];
   //Random music
   let index = Math.floor(Math.random() * ThanhDieu_List.length);
@@ -121,3 +121,4 @@ const ThanhDieu_List = [
     audio.src = ThanhDieu_List[index];
     audio.play();
   });
+
