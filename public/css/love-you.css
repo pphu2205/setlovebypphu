@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Geologica|Kanit|Signika|Sriracha|Rowdies|Potta One|ZCOOL+QingKe+HuangYou|Merriweather+Sans:ital,wght@1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+html {
+    height: 100vh;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 162, 255, 0.4), rgba(255, 0, 255, 0.2)), url(../images/bg1.jpg);
+}
+.title img {
+    display: block;
+    filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: rgb(0, 130, 255);
+    text-shadow: 0 0 5px white;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 500px;
+    padding-top: 120px;
+}
+@media screen and (max-width: 755px) {
+    .swiper-container {
+  
+    }
+  }
+  
+.swiper-container-lovexhj1 {
+    margin: -20px auto;
+    width: 860px;
+}
+@media screen and (max-width: 789px) {
+    .swiper-container-lovexhj1 {
+        margin: -90px auto;
+    }
+  }
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.stickerxnxx {
+    margin-top: -20px;
+    width: 110px !important;
+    height: 110px !important;
+}
+.page {
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.title-font{
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.title {
+    overflow: hidden;
+}
+.title-font0 {
+    font-family: Signika;
+    font-weight: 600;
+    font-style: italic;
+}
+.title-font2 {
+    font-family: Sriracha;
+    font-weight: 600;
+}
+.title-font1{
+    font-family: Signika;
+    font-weight: 600;
+    font-style: italic;
+}
+.title p {
+    display: inline-block;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+}
+@media screen and (max-width: 789px) {
+    .title {
+        margin-top: -230px;
+    }
+  }
+
+.TichXanh__ {
+    margin: -2px auto !important;;
+    margin-left: 5px !important;;
+    width: 16px !important;;
+    height: 16px !important;;
+  
+  }
+.page1-lovexhj1 img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.page1 .right {
+    font-family: Sriracha;
+    border-bottom: 1px solid black;
+    line-height: 50px;
+    font-size: 17px;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+	background-color: rgb(194, 49, 223);	
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+.catText {
+    font-size: 13px;
+    color: gray;
+}
+.decor-avatar{
+    margin-left: 60px !important;
+}
+.avt{
+    border: 3px solid rgb(89, 52, 255);
+}
+.td-focus{
+    margin-top: 20px !important;
+}
+@media screen and (max-width: 789px) {
+    .avt-boy{
+   
+    }
+  }
+  @media screen and (max-width: 789px) {
+    .avt-girl{
+        
+    }
+  }
+  .name-boy {
+    cursor: pointer;
+    margin-left: -110px;font-family: 'Merriweather Sans';font-style: italic;
+  }
+  .name-girl {
+    cursor: pointer;
+    margin-left: -105px;font-family: 'Merriweather Sans';font-style: italic;
+  }
+  @media screen and (max-width: 789px) {
+    .name-boy{
+        margin-left: -85px;
+    }
+  }
+  @media screen and (max-width: 789px) {
+    .name-girl{
+        margin-left: -82px;
+    }
+  }
+@media screen and (max-width: 789px) {
+    .decor-avatar {
+      margin-left: 20px !important;
+    }
+  }
+.rainbowabc {
+    font-family: 'Rowdies';
+    color: rgb(0, 240, 120);
+    animation: colorRotate 2.5s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+    from {
+      color: #FF0000;
+    }
+    10% {
+      color: #ff00bf;
+    }
+    50% {
+      color: #ff3c00;
+    }
+     100% {
+      color: #a8a800;
+    }
+  }
+  
+.swiper-container-lovexhj2 
+.swiper-wrapper 
+.swiper-slide {
+    width: 400px;
+    border-radius: 0;
+}
+
+#talkToXHJ {
+    width: 750px;
+    padding: 50px 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+.swiper-container-lovexhj3 
+.swiper-wrapper 
+.swiper-slide {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.swiper-container-lovexhj3 
+.swiper-wrapper 
+.swiper-slide 
+img {
+    height: 90%;
+    border-radius: 20px;
+}
+
+.page4-text {
+    float: left;
+    width: 450px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    margin: 270px 0 0 100px;
+}
+
+.anime-cb .pig1,
+.pig2 {
+    position: fixed;
+    z-index: 99;
+    width: 150px;
+}
+
+.anime-cb .pig1 {
+    right: -10px;
+    bottom: 0;
+    transform: rotate(-25deg);
+    animation: xhjPigRun1 2s infinite;
+}
+
+.anime-cb .pig2 {
+    left: -30px;
+    bottom: 0;
+    transform: scaleX(-1) rotate(-90deg);
+    animation: xhjPigRun2 5s infinite;
+}
+
+@keyframes xhjPigRun1 {
+    0% {
+        transform: scale(1) rotate(-25deg);
+    }
+
+    50% {
+        transform: scale(1.2) rotate(-25deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(-25deg);
+    }
+}
+
+@keyframes xhjPigRun2 {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 20%;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+@media screen and (max-width: 730px) {
+    .title p {
+        font-size: 30px;
+    }
+
+    .swiper-container {
+        padding-top: 150px;
+    }
+
+    .swiper-container-lovexhj1 {
+        width: 400px;
+        height: 500px;
+    }
+    .swiper-container-lovexhj2 {
+        height: 450px;
+    }
+
+    #talkToXHJ {
+        width: 350px;
+        padding: 30px 30px;
+    }
+
+    #talkToXHJ b {
+        font-size: 23px;
+    }
+    
+    #talkToXHJ p {
+        font-size: 15px;
+    }
+
+    .swiper-container-lovexhj3 
+    .swiper-wrapper 
+    .swiper-slide 
+        img {
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .page4-text {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .page4-text h1 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .footer {
+        height: 560px;
+    }
+
+    .anime-cb .pig1,
+    .pig2 {
+        width: 130px;
+    }
+
+    .anime-cb .pig2 {
+        left: -25px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .title p {
+        font-size: 30px;
+        margin-top: 260px;
+    }
+
+    .swiper-container {
+        padding-top: 150px;
+    }
+
+    .swiper-container-lovexhj1 {
+        width: 90%;
+        height: 500px;
+    }
+
+    .page1-lovexhj1 {
+        font-size: 15px;
+    }
+
+    .page1-lovexhj1 img {
+        width: 70px;
+    }
+
+    .swiper-container-lovexhj2 {
+        width: 100%;
+        height: 500px;
+    }
+
+    #talkToXHJ {
+        width: 80%;
+        padding: 20px 10px;
+    }
+
+    #talkToXHJ b {
+        font-size: 23px;
+    }
+    
+    #talkToXHJ p {
+        font-size: 15px;
+    }
+    .swiper-container-lovexhj3 
+    .swiper-wrapper 
+    .swiper-slide 
+        img {
+        height: 100%;
+        border-radius: 20px;
+    }
+    .anime-cb .pig1,
+    .pig2 {
+        width: 80px;
+    }
+
+    .anime-cb .pig2 {
+        left: -15px;
+    }
+}
