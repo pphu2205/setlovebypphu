@@ -1,113 +1,86 @@
+<!-- Clone by @WusThanhDieu -->
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-    <link rel="icon" href="./public/images/logo.png">
-    <title>PPhu ❤️ MNuong</title>
-    <meta name="description" content="Anh Mong Em Sẽ Là Người Cuối Cùng Đến Với Cuộc Đời Của Anh:3">
-    <meta name="keywords" content="Đếm ngày yêu online">
-    <meta property="og:image" content="./public/images/banner.webp">
-    <script src="//thanhdieu.com/files/defender-data@v4.js"></script>
-    <link rel="stylesheet" type="text/css" href="./public/css/love-you.css">
-    <link rel="stylesheet" href="./public/css/swiper.css">
-    <link rel="stylesheet" href="./public/css/FiraCode.css">
-</head>
-<body>
-<div id="safeguard"></div>
-    <script src="https://cdn.bootcss.com/wow/1.1.2/wow.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="./public/js/typeit.min.js"></script>
-    <script src="./public/js/swiper-3.4.2.min.js"></script>
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.js"></script>
-    <script src="https://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
-    <script src="./public/js/lovetime.js"></script>
-    <script src="./public/js/talk.js"></script>
-    <script src="./public/js/swiper.js"></script>
-    <script src="./public/js/su.js"></script>
-    <script>
-        (function () {
-            new WOW().init()
-        })()
-    </script>
-
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $('body').wpSuperSnow({
-                flakes: ['./public/images/004.png', './public/images/003.png', './public/images/002.png',
-                    './public/images/001.png'
-                ],
-                totalFlakes: '100',
-                zIndex: '999999',
-                maxSize: '30',
-                maxDuration: '20',
-                useFlakeTrans: false
-            });
-        });
-        class Heart extends mojs.CustomShape {
-  getShape () {
-    return '<path d="M73.6170213,0 C64.4680851,0 56.5957447,5.53191489 51.7021277,13.8297872 C50.8510638,15.3191489 48.9361702,15.3191489 48.0851064,13.8297872 C43.4042553,5.53191489 35.3191489,0 26.1702128,0 C11.9148936,0 0,14.0425532 0,31.2765957 C0,48.0851064 14.893617,77.8723404 47.6595745,99.3617021 C49.1489362,100.212766 50.8510638,100.212766 52.1276596,99.3617021 C83.8297872,78.5106383 99.787234,48.2978723 99.787234,31.2765957 C100,14.0425532 88.0851064,0 73.6170213,0 L73.6170213,0 Z"></path>';
-  }
-}
-mojs.addShape( 'heart', Heart );
-
-const CIRCLE_RADIUS = 20;
-const RADIUS = 32;
-const circle = new mojs.Shape({
-  left: 0, top: 0,
-  stroke:   '#FF9C00',
-  strokeWidth: { [2*CIRCLE_RADIUS] : 0 },
-  fill:       'none',
-  scale:      { 0: 1 },
-  radius:     CIRCLE_RADIUS,
-  duration:   400,
-  easing:     'cubic.out'
-});
-
-const burst = new mojs.Burst({
-  left: 0, top: 0,
-  radius:   { 4: RADIUS },
-  angle:    45,
-  count:    14,
-  timeline: { delay: 300 },
-  children: {
-    radius:       2.5,
-    fill:         '#FD7932',
-    scale:        { 1: 0, easing: 'quad.in' },
-    pathScale:    [ .8, null ],
-    degreeShift:  [ 13, null ],
-    duration:     [ 500, 700 ],
-    easing:       'quint.out'
-  }
-});
-
-const heart = new mojs.Shape({
-  left: 0, top: 2,
-  shape:    'heart',
-  fill:     '#E5214A',
-  scale:    { 0 : 1 },
-  easing:   'elastic.out',
-  duration: 1600,
-  delay:    300,
-  radius:   11
-});
-
-document.addEventListener( 'click', function (e) {
-  const coords = { x: e.pageX, y: e.pageY };
-  burst
-    .tune(coords)
-    .replay();
-  
-  circle
-    .tune( coords )
-    .replay();
-  
-  heart
-    .tune( coords )
-    .replay();
-  
-});
-    </script>
-</body>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Github PPhu</title>
+    <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet"/>
+    <link rel="stylesheet" href="/static/css/app.css" />
+  </head>
+  <body class="font-sans antialiased">
+    <div
+      id="app"
+      data-page='{
+        "component": "views/home",
+        "props": {
+          "errors": {},
+          "name": "Github WusThanhDieu",
+          "quote": {
+            "message": "",
+            "author": ""
+          },
+          "auth": {
+            "user": null
+          },
+          "ziggy": {
+            "port": null,
+            "defaults": [],
+            "routes": {
+              "home": {
+                "uri": "/",
+                "methods": ["GET", "HEAD"]
+              },
+              "show-create-form": {
+                "uri": "create-message/{id?}",
+                "methods": ["GET", "HEAD"],
+                "parameters": ["id"]
+              },
+              "create-form": {
+                "uri": "create-message",
+                "methods": ["POST"]
+              },
+              "login": {
+                "uri": "login",
+                "methods": ["GET", "HEAD"]
+              },
+              "logout": {
+                "uri": "logout",
+                "methods": ["POST"]
+              },
+              "storage.local": {
+                "uri": "storage/{path}",
+                "methods": ["GET", "HEAD"],
+                "wheres": {
+                  "path": ".*"
+                },
+                "parameters": ["path"]
+              }
+            },
+            "location": ""
+          },
+          "message": "",
+          "client": {
+            "fontName": "Mali",
+            "color": "#ff0019",
+            "messages": [
+              "Github WusThanhDieu",
+              "Test 1",
+              "Test 2"
+            ],
+            "music": "//thanhdieu.com/music.mp3"
+          },
+          "clientId": "/"
+        },
+        "url": "/",
+        "version": "",
+        "clearHistory": false,
+        "encryptHistory": false
+      }
+      '
+    >
+  </div>
+  <script type="module" src="/static/js/app.js"></script>
+  <script type="module" src="/static/js/home.js"></script>
+  </body>
 </html>
